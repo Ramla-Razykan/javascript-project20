@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Agdasima", sans-serif;
+    color: #ffffff81;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(55, 82, 85);
+    padding: 1rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+input {
+    width: 30%;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background: none;
+    border: 2px solid #ffffff81;
+    border-radius: 1rem;
+}
+
+button {
+    width: 25%;
+    height: 4rem;
+    font-size: 2rem;
+    background: none;
+    border: 2px solid #ffffff81;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background: #ffffff07;
+}
+
+p {
+    font-size: 4rem;
+    color: rgb(81, 123, 128);
+}
+
+@media (max-width : 1440px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width : 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width : 540px) {
+    html {
+        font-size: 45%;
+    }
+
+    .container {
+        width: 98%;
+    }
+
+    input {
+        width: 45%;
+    }
+
+    button {
+        width: 35%;
+    }
+}
+
+@media (max-width : 430px) {
+    html {
+        font-size: 45%;
+    }
+
+    .container {
+        width: 98%;
+    }
+
+    input {
+        width: 45%;
+    }
+
+    button {
+        width: 35%;
+    }
+}
+
+@media (max-width : 375px) {
+    html {
+        font-size: 45%;
+    }
+
+    .container {
+        width: 98%;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+}
